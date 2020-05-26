@@ -1,0 +1,130 @@
+/* **************************************************************************************************************** Section 3 Media */
+
+/* Mobile */
+@media screen and (min-height: 620px) {
+
+    .section-3-1, .section-3-2 {
+        font-size: 18px;
+    }
+
+    .section-3-3-1 > span {
+        font-size: 13px;
+    }
+    
+    .section-3-3-1 > ul > li {
+        font-size: 12px;
+    }
+
+    .section-3-3-3-1, .section-3-3-3-3 {
+        font-size: 14px;
+    }
+
+    .min-font, .section-3-3-3-2 > span {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .section-3-1, .section-3-2 {
+        font-size: 20px;
+    }
+
+    .section-3-3-1 > span {
+        font-size: 16px;
+    }
+    
+    .section-3-3-1 > ul > li {
+        font-size: 15px;
+    }
+
+    .section-3-3-3-1, .section-3-3-3-3 {
+        font-size: 17px;
+    }
+
+    .min-font, .section-3-3-3-2 > span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .section-3-1, .section-3-2 {
+        font-size: 23px;
+    }
+
+    .section-3-3-1 > span {
+        font-size: 19px;
+    }
+    
+    .section-3-3-1 > ul > li {
+        font-size: 18px;
+    }
+
+    .section-3-3-3-1, .section-3-3-3-3 {
+        font-size: 20px;
+    }
+
+    .min-font, .section-3-3-3-2 > span {
+        font-size: 19px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1020px) and (max-height: 1280px) and (min-height: 500px) {
+    .section-3 {
+        padding-top: 100px;
+    }
+
+    .section-3 > div {
+        padding: 50px 0;
+        align-items: center;
+    }
+
+    .section-3-3 {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding-right: 100px;
+        padding-left: 150px;
+    }
+
+    .section-3-3-1, .section-3-3-3, .on-section-3-3-2 {
+        width: 30%;
+    }
+
+    .on-section-3-3-2 {
+        display: flex;
+        justify-content: center;
+        margin: auto 0;
+    }
+
+    .section-3-3-2 {
+        width: 75%;
+        margin: auto 0;
+    }
+
+    .section-3-1, .section-3-2 {
+        font-size: 35px;
+    }
+
+    .section-3-2 {
+        margin-bottom: 50px;
+    }
+
+    .section-3-3-1 > span {
+        font-size: 19px;
+    }
+    
+    .section-3-3-1 > ul > li {
+        font-size: 15px;
+    }
+
+    .section-3-3-3-1, .section-3-3-3-3 {
+        font-size: 20px;
+    }
+
+    .min-font, .section-3-3-3-2 > span {
+        font-size: 15px;
+    }
+
+}
+

@@ -1,0 +1,141 @@
+/* **************************************************************************************************************** Section 4-5-6 Media */
+
+/* Mobile */
+@media screen and (min-height: 620px) {
+
+    .section-4-2-2 > div,
+    .section-4-2-3,
+    .in-section-4-2-4 > div {
+        font-size: 18px;
+    }
+
+    .section-4-2-2 > span,
+    .section-4-2-5 ,
+    .in-section-4-2-4 > span {
+        font-size: 12px;
+    }
+
+    .in-section-4-2-4 > span > b {
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (min-width: 420px) {
+    .section-4-2-2 > div,
+    .section-4-2-3,
+    .in-section-4-2-4 > div {
+        font-size: 20px;
+    }
+
+    .section-4-2-2 > span,
+    .section-4-2-5 ,
+    .in-section-4-2-4 > span {
+        font-size: 15px;
+    }
+
+    .in-section-4-2-4 > span > b {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .section-4-2-2 > div,
+    .in-section-4-2-4 > div {
+        font-size: 22px;
+    }
+
+    .section-4-2-2 > span,
+    .section-4-2-5 ,
+    .in-section-4-2-4 > span {
+        font-size: 18px;
+    }
+
+    .in-section-4-2-4 > span > b {
+        font-size: 18px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1020px) and (max-height: 1280px) and (min-height: 500px) {
+    .section-triad > div {
+        padding-right: 50px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section-triad {
+        padding-top: 100px;
+    }
+
+    .section-4-1 {
+        order: 1;
+    }
+
+    .section-4-2 {
+        order: 2;
+        padding-right: 100px;
+    }
+
+    .section-4-2-1 > img {
+        width: 55%;
+    }
+
+    .section-4-2-2 > div,
+    .in-section-4-2-4 > div {
+        font-size: 25px;
+    }
+
+    .section-4-2-2 > span,
+    .in-section-4-2-4 > span {
+        font-size: 15px;
+    }
+
+    .section-4-2-5 {
+        font-size: 14px;
+    }
+
+    .in-section-4-2-4 b {
+        font-size: 20px;
+    }
+
+    .pop-up > form {
+        width: 20%;
+    }
+    
+    .pop-up > form > input {
+        height: 40px;
+        font-size: 100%;
+    }
+    
+    .pop-up-submit {
+        height: 50px !important;
+    }
+
+    .order {
+        padding: 5px 70px;
+        font-size: 18px;
+    }
+
+    .center {
+        text-align: start;
+    }
+    
+    .on-order {
+        justify-content: start;
+    }
+
+    .section-4-2-4 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .section-4-2-3 {
+        text-align: start;
+    }
+
+    .section-4-2-5 {
+        margin-top: 0 !important;
+    }
+
+}

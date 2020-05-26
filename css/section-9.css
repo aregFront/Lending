@@ -1,0 +1,70 @@
+/************************************************************************************************* Section 9 */
+
+.section-9 {
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    font-family: "Ubuntu-Regular";
+    background-image: url("../img/section-9-bg.jpg");
+    padding-top: 40px;
+}
+
+.section-9 > div {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .8);
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+
+.section-9-1 {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    font-family: "Ubuntu";
+}
+
+
+.section-9-1 > img {
+    width: 45px;
+}
+
+.section-9-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-9-2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-9-2-1 > div {
+    font-size: 11px;
+    margin-bottom: 20px;
+    font-family: "Ubuntu";
+}
+
+.section-9-2-1 > span {
+    font-size: 9px;
+    margin-bottom: 10px;
+    width: 50%;
+    align-items: center;
+}
+
+.section-9-2-2 {
+    width: 50%;
+    margin-top: 20px
+}

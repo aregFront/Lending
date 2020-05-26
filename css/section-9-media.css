@@ -1,0 +1,91 @@
+/************************************************************************************************* Section 9 Media */
+/* Mobile */
+@media screen and (min-height: 620px) {
+    .section-9-1 {
+        font-size: 15px;
+    }
+
+    .section-9-2-1 > div {
+        font-size: 18px;
+    }
+
+    .section-9-2-1 > span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .section-9-1 {
+        font-size: 17px;
+    }
+
+    .section-9-2-1 > div {
+        font-size: 20px;
+    }
+
+    .section-9-2-1 > span {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .section-9-1 {
+        font-size: 20px;
+    }
+
+    .section-9-2-1 > div {
+        font-size: 23px;
+    }
+
+    .section-9-2-1 > span {
+        font-size: 18px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1020px) and (max-height: 1280px) and (min-height: 500px) {
+    .section-9 > div {
+        padding: 50px 50px 50px 150px;
+    }
+
+    .section-9 {
+        padding-bottom: 150px;
+        padding-top: 0;
+        background-position: top;
+    }
+
+    .section-9-1 {
+        font-size: 17px;
+        margin-bottom: 100px;
+    }
+
+    .section-9-1 > img {
+        width: 70px;
+    }
+
+    .section-9-2 {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section-9-2-1 {
+        align-items: flex-start;
+    }
+
+    .section-9-2-1 > div {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    .section-9-2-1 > span {
+        font-size: 20px;
+        width: 60%;
+        margin-top: 10px;
+        line-height: 25px;
+    }
+
+    .section-9-2-2 {
+        width: 15%;
+    }
+
+}

@@ -1,0 +1,115 @@
+/* **************************************************************************************************************** Section 1 Media */
+
+/* Mobile */
+@media screen and (min-height: 620px) {
+    .section-1 {
+        padding-bottom: 120px;
+        padding-top: 20px;
+    }
+
+    .section-1-1 {
+        font-size: 15px;
+    }
+
+    .section-1-2-title {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .section-1-2-min-title {
+        font-size: 13px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .section-1-2-descr {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .section-1 {
+        padding-bottom: 150px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .section-1-1 {
+        font-size: 17px;
+    }
+
+    .section-1-2-title {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .section-1-2-min-title {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .section-1-2-descr {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .section-1 {
+        padding-bottom: 200px;
+        padding-top: 50px;
+        padding-left: 70px;
+    }
+
+    .section-1-1 {
+        font-size: 20px;
+    }
+
+    .section-1-2-title {
+        font-size: 23px;
+        margin-bottom: 35px;
+    }
+
+    .section-1-2-min-title {
+        font-size: 21px;
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+
+    .section-1-2-descr {
+        font-size: 18px;
+    }
+}
+
+/* Desktop */
+
+
+@media screen and (min-width: 1020px) and (max-height: 1280px) and (min-height: 500px) {
+    .section-1 {
+        padding: 50px 0 0 150px;
+    }
+
+    .section-1-1 > img {
+        width: 70px;
+    }
+
+    .section-1-1 {
+        font-size: 17px;
+    }
+
+    .section-1-2-title {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+
+    .section-1-2-min-title {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+
+    .section-1-2-descr {
+        font-size: 15px;
+    }
+}
+

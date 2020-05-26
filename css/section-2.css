@@ -1,0 +1,45 @@
+/* **************************************************************************************************************** Section 2 */
+
+.section-2 {
+    position: relative;
+    z-index: 0;
+    background-image: url("../img/section-2-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.section-2 > div {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .8);
+    height: 65%;
+    width: 100%;
+    padding: 20px 0 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.in-section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.in-section-2 > .section-1-2-title {
+    margin-bottom: 0;
+}
+
+.on-section-2-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.on-section-2-img > img {
+    width: 90%;
+}
